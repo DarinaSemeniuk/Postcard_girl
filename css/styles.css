@@ -1,0 +1,486 @@
+h1, h2, h3, li, ul, p, a, img{
+   margin: 0;
+   padding: 0;
+}
+a{
+   line-height: 0;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+.container{
+   width: 480px;
+   margin: 0 auto;
+   padding: 0 20px;
+
+}
+body{
+   background-color: #6B7b7b;
+}
+
+
+
+
+
+
+.hero {
+}
+.hero-thumb {
+   position: relative;
+   width: 480px;
+   margin: 0 auto 60px auto;
+}
+.hero-image {
+   display: block;
+}
+.hero-list {
+   position: absolute;
+   top: 0;
+   left: 0;
+   list-style-type: none;
+}
+.hero-item {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 125px;
+   color: #567676;
+}
+.hero-decor{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: -60px;
+   z-index: 2;
+   width: 150px;
+   height: 90px;
+   border-radius: 50%;
+   background-color: #6B7b7b;
+}
+.hero-overtitle {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   color: white;
+}
+.hero-title {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 55px;
+   text-align: center;
+   color: white;
+}
+.hero-undertitle {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 60px;
+   color: white;
+}
+.hero-invitation{
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   color: white;
+   font-size: 25px;
+   margin-bottom: 60px;
+}
+
+
+
+
+.date {
+   width: 480px;
+   height: 550px;
+   margin: 0 auto;
+   background-color: white;
+}
+.date-title-thumb {
+   position: relative;
+   margin: 0 auto 60px auto;
+   padding-top: 60px;
+}
+.date-title {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90px;
+   text-align: center;
+   color: #807464;
+}
+.date-subtitle {
+   position: absolute;
+   top: 110px;
+   left: 55%;
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 40px;
+   color: #E6DACA;
+}
+.date-thumb {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 440px;
+   margin: 0 auto 10px auto;
+}
+.date-text {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #807464;
+
+   padding: 10px;
+   border-top: 2px solid #807464;
+   border-bottom: 2px solid #807464;
+}
+.date-year {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #567676;
+}
+.date-time {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #807464;
+
+   padding: 10px;
+   border-top: 2px solid #807464;
+   border-bottom: 2px solid #807464;
+}
+.date-decor{
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+
+.location {
+   display: flex;
+   justify-content: space-between;
+   width: 480px;
+   margin: 0 auto;
+}
+.location-text-thumb {
+   margin-left: 23px;
+   margin-top: 10px;
+}
+.location-title {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 70px;
+   text-align: center;
+   color: white;
+   margin-bottom: 30px;
+}
+.location-text {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+.location-button {
+   display: inline-block;
+   padding: 30px 30px;
+   background-color: white;
+   border-radius: 4px;
+
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   text-align: center;
+   color: #567676;
+   font-size: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+.location-image-thumb {
+}
+.location-image {
+   display: block;
+}
+
+
+
+.dresscode {
+   width: 480px;
+   margin: 0 auto;
+   background-color: white;
+}
+.dresscode-title-thumb {
+   position: relative;
+   margin: 0 auto 60px auto;
+   padding-top: 90px;
+}
+.dresscode-title {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90px;
+   text-align: center;
+   color: #807464;
+}
+.dresscode-subtitle {
+   position: absolute;
+   top: 140px;
+   left: 55%;
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 40px;
+   color: #E6DACA;
+}
+.dresscode-text {
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   text-align: right;
+   color: #807464;
+   font-size: 22px;
+}
+.dresscode-thumb {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.dresscode-image {
+   display: block;
+   margin-top: -60px;
+}
+.dresscode-list {
+   list-style-type: none;
+   margin-right: 160px;
+}
+.dresscode-item {
+   margin-bottom: 10px;
+}
+.dresscode-item-image {
+   display: block;
+}
+
+
+
+.present {
+   width: 480px;
+   margin: 0 auto -15px auto;
+   background-color: white;
+}
+.present-title-thumb {
+   position: relative;
+   margin: 0 auto 60px auto;
+   padding-top: 60px;
+}
+.present-title {
+   font-family: "Fleur De Leah", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90px;
+   text-align: center;
+   color: #807464;
+}
+.present-subtitle {
+   position: absolute;
+   top: 110px;
+   left: 55%;
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 40px;
+   color: #E6DACA;
+}
+.present-collage-thumb {
+   display: flex;
+   flex-wrap: wrap;
+   width: 480px;
+}
+.present-image {
+   display: block;
+}
+.present-block {
+   position: relative;
+   width: 160px;
+   height: 160px;
+   background-color: #807464;
+}
+.present-block-second-bg{
+   background-color: #E6DACA;
+}
+.block-image {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.block-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 0.9em;
+   text-align: center;
+   color: #807464;
+}
+.block-text-second-color{
+   color: #E6DACA;
+}
+
+
+
+.registration {
+   padding-top: 200px;
+   padding-bottom: 10px;
+   background-color: white;
+   margin-top: -2px;
+}
+.registration-text {
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   text-align: center;
+   font-size: 27px;
+   color:#807464;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+.registration-form {
+   margin-bottom: 80px;
+}
+.form-field {
+   margin-bottom: 15px;
+}
+.form-input {
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+   border: 2px solid #807464;
+   border-radius: 8px;
+   padding: 2px 15px;
+   outline: none;
+}
+.form-input::placeholder{
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color: #807464;
+
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 20px;
+   color:#807464;
+}
+.checkbox-label {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 20px;
+   color:#807464;
+}
+.checkbox-input:checked + .custom-checkbox > .checkbox-icon{
+   display: block;
+}
+.custom-checkbox{
+   position: relative;
+   display: block;
+   width: 30px;
+   height: 30px;
+   border: 2px solid #807464;
+   border-radius: 4px;
+   margin-right: 15px;
+}
+.checkbox-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   width: 15px;
+   height: 15px;
+   background-color: #807464;
+   border-radius: 2px;
+}
+
+.registration-btn {
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 24px;
+   color: white;
+   text-transform: uppercase;
+
+   width: 100%;
+   height: 50px;
+   border: 2px solid #807464;
+   border-radius: 4px;
+   background-color: #807464;
+}
+
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 480px;
+   height: 50px;
+   margin: 0 auto;
+   background-color: darkgray;
+}
+.footer-text {
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+   margin-right: 15px;
+}
+.footer-link {
+   display: block;
+   padding: 10px
+}
+.footer-icon {
+   display: block;
+}
